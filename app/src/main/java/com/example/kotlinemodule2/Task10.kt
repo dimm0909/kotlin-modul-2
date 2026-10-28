@@ -26,11 +26,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import kotlin.random.Random
 
-/**
- * Задание 10:
- * Исправление ошибок рекомпозиции и состояния в корзине покупок.
- */
-
 data class Product(
     val id: Int,
     val name: String,

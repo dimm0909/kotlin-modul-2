@@ -22,16 +22,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-/**
- * Задание 4:
- * Вывести на экран кнопку такого вида:
- * - Для растягивания кнопки по ширине экрана задайте параметр modifier.
- * - Для установки формы прямоугольника со скруглёнными углами используйте параметр shape со значением RoundedCornerShape(16.dp).
- * - Для границы кнопки задайте значение BorderStroke(2.dp, Color.Gray).
- * - Установите тень глубиной 4.dp.
- * - Для фона кнопки выберите светло-серый цвет (Color.LightGray), а для цвета текста — чёрный (Color.Black).
- */
-
 @Composable
 fun CustomStyledButton(
     text: String = "Нажми на меня",

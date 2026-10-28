@@ -46,7 +46,7 @@ fun MainContent(modifier: Modifier = Modifier) {
             .padding(vertical = 16.dp)
     ) {
         Text(
-            text = "Модуль 2 — Практические задания 1-10",
+            text = "Модуль 2 — Практические задания 8-10",
             style = MaterialTheme.typography.headlineSmall,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(horizontal = 16.dp)
@@ -54,42 +54,10 @@ fun MainContent(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Задание 1
-        Task1Screen()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Задание 3
-        Task3Screen()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Задание 4
-        Task4Screen()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Задание 5
-        Task5Screen()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Задание 6
-        Task6Screen()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Задание 7
-        Task7Screen()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Задание 8
         Task8Screen()
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Задание 10
         Task10Screen()
 
         Spacer(modifier = Modifier.height(24.dp))

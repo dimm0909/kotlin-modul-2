@@ -23,11 +23,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-/**
- * Задание 7:
- * Реализация Composable функций с использованием контейнеров Column и Row для отображения карточек контактов.
- */
-
 data class ContactInfo(
     val firstName: String,
     val middleName: String,

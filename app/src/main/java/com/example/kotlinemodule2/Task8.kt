@@ -9,7 +9,6 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,14 +24,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
-/**
- * Задание 8:
- * Исправление и расширение функции WaterTracker (Трекер воды):
- * - Кнопка добавления жидкости (+250 мл).
- * - Кнопка «Завершить день».
- * - Подсчёт и вывод количества дней подряд с нормой 1500+ мл.
- */
 
 val primaryColor = Color(0xFF415F91)
 val secondaryColor = Color(0xFF565F71)

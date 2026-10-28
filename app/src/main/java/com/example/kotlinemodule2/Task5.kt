@@ -25,19 +25,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-/**
- * Задание 5:
- * - Разместите во всю ширину экрана серый контейнер высотой 100.dp.
- * - Расположите посередине компонент с инициалами с вертикальными отступами 16.dp.
- * - Круг должен занимать всю доступную высоту.
- */
-
 @Composable
 fun InitialsAvatar(
     initials: String = "АБ",
     modifier: Modifier = Modifier
 ) {
-    // Высота контейнера 100.dp, отступы 16.dp сверху и снизу => круг занимает всю доступную высоту (68.dp)
     Box(
         modifier = modifier
             .fillMaxWidth()
@@ -49,9 +41,9 @@ fun InitialsAvatar(
             modifier = Modifier
                 .padding(vertical = 16.dp)
                 .fillMaxHeight()
-                .size(68.dp) // доступная высота: 100.dp - 32.dp = 68.dp
+                .size(68.dp)
                 .clip(CircleShape)
-                .background(Color(0xFFFF5722)), // оранжевый цвет круга
+                .background(Color(0xFFFF5722)),
             contentAlignment = Alignment.Center
         ) {
             Text(

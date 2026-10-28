@@ -16,12 +16,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-/**
- * Задание 1:
- * Напишите compose-функцию Hello(name: String?), куда в качестве параметра можно было бы
- * передавать имя для приветственной надписи. Если в качестве параметра передано значение null,
- * должна выводиться надпись «Имя не задано».
- */
 @Composable
 fun Hello(
     name: String?,

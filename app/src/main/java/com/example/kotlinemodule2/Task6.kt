@@ -25,13 +25,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-/**
- * Задание 6:
- * 1) Расположите круг исходного размера в правом верхнем углу в компоненте c чёрным фоном, размер — 240.dp x 120.dp.
- * 2) Задайте синий цвет фона компонента. Расположите круг по центру и растяните по размерам.
- *    Используйте цвет фиолетовый (ColorFilter.tint).
- */
-
 @Composable
 fun Task6aCircleInCorner(modifier: Modifier = Modifier) {
     Box(
@@ -61,7 +54,7 @@ fun Task6bCircleStretchedPurple(modifier: Modifier = Modifier) {
             contentDescription = "Stretched Circle",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.FillBounds,
-            colorFilter = ColorFilter.tint(Color(0xFF800080)) // фиолетовый цвет
+            colorFilter = ColorFilter.tint(Color(0xFF800080))
         )
     }
 }

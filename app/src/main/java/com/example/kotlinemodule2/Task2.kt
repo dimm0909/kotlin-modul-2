@@ -11,14 +11,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 
-/**
- * Задание 2:
- * Создайте для функции HelloPreview из предыдущего урока три макета предпросмотра с показом системного UI:
- * - portrait — с портретной ориентацией экрана.
- * - landscape — с альбомной ориентацией экрана.
- * - round — с круглым дисплеем размером 200dpx200dp, а также жёлтым задним фоном.
- */
-
 @Composable
 fun HelloPreviewContent() {
     Hello(name = "Android")

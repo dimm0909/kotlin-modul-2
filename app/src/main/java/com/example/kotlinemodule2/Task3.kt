@@ -25,18 +25,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-/**
- * Задание 3:
- * Добавьте в ресурсы строку «Jetpack Compose — это современный набор инструментов для создания
- * пользовательского интерфейса (UI) на Android, разработанный Google».
- * Разместите в режиме предпросмотра текст с этой строкой в нескольких вариантах:
- * 1. Зелёный цвет шрифта, размер шрифта — 16.sp, стиль шрифта — курсив, выравнивание — по центру.
- * 2. Для текста отводится одна строка, в завершении которой — многоточие.
- * 3. Перед первой строкой — отступ 48.sp, размер шрифта — 24.sp, чёрный цвет шрифта,
- *    зелёный цвет фона, текст подчёркнут.
- */
-
-// Вариант 1
 @Composable
 fun Task3Variant1(modifier: Modifier = Modifier) {
     Text(
@@ -49,7 +37,6 @@ fun Task3Variant1(modifier: Modifier = Modifier) {
     )
 }
 
-// Вариант 2
 @Composable
 fun Task3Variant2(modifier: Modifier = Modifier) {
     Text(
@@ -60,7 +47,6 @@ fun Task3Variant2(modifier: Modifier = Modifier) {
     )
 }
 
-// Вариант 3
 @Composable
 fun Task3Variant3(modifier: Modifier = Modifier) {
     Text(
